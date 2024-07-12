@@ -1,0 +1,110 @@
+# Node.js dependencies
+node_modules/
+.pnp/
+.pnp.js
+
+# Next.js build output
+.next/
+out/
+
+# Tailwind CSS output
+public/css/
+
+# CSS Modules
+*.module.css
+*.module.scss
+*.module.sass
+
+# Production
+build/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Diagnostic reports (https://nodejs.org/api/report.html)
+report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
+
+# Mac system files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Thumbnails
+._*
+
+# Files that might appear on external disk
+.Spotlight-V100
+.Trashes
+.VolumeIcon.icns
+.AppleDouble
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# Editor directories and files
+.vscode/
+.idea/
+*.swp
+*.swo
+*.bak
+*.tmp
+*.orig
+
+# TypeScript
+*.tsbuildinfo
+
+# dotenv environment variables file
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Storybook files
+.storybook-out/
+
+# Jest
+/coverage/
+jest.config.js
+
+# Eslint cache
+.eslintcache
+
+# Prettier Formatter
+.prettierignore
+
+# Cypress
+cypress/screenshots/
+cypress/videos/
+cypress/fixtures/
+cypress/support/
+
+# Compiled JS, map files
+*.log
+*.gz
+*.zip
+
+# Ignore various VS Code settings
+.vscode/*
+
+# Ignore common IDE settings
+.idea/
+
+# Ignore miscellaneous temporary files and directories
+*.pem
+*.crt
+*.env.local
+
+# Ignore IntelliJ IDE specific files
+config/
+*/__pycache__/
+*.iml
+
+# Ignore package lock files
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
